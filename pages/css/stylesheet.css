@@ -7,17 +7,21 @@ div{
 }
 
 .odd_number {
-
+    background-color: hsl(0, 76%, 62%);
+    font-style: Verdana, "DejaVu Sans", sans-serif;
 }
 
 .second_element {
-
+    color: #0000ff;
+    font-size: 36px;
 }
 
 .third_element {
-
+    font-size: 24px;
 }
 
 .fourth_element {
-    
+    background-color: hsl(120, 73%, 75%);
+    font-size: 24px;
+    font-weight:  bold;
 }

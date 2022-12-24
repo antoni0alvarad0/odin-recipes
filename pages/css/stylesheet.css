@@ -1,18 +1,24 @@
+/*
+
+* {
+    border: 2px solid royalblue;
+}
+
 div{
-    color: #fff;
-    background-color: #ff0000;
+    color: white;
+    background-color: red;
     font-size: 32px;
    text-align: center;
     font-weight: 700;
 }
 
 .odd_number {
-    background-color: hsl(0, 76%, 62%);
+    background-color: pink;
     font-style: Verdana, "DejaVu Sans", sans-serif;
 }
 
 .second_element {
-    color: #0000ff;
+    color: blue;
     font-size: 36px;
 }
 
@@ -21,7 +27,9 @@ div{
 }
 
 .fourth_element {
-    background-color: hsl(120, 73%, 75%);
+    background-color: lightgreen;
     font-size: 24px;
     font-weight:  bold;
 }
+
+*/

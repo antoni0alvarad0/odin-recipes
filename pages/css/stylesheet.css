@@ -1,9 +1,58 @@
 
 * {
-    border: 2px solid royalblue;
+    border: 1px solid black;
 }
 
-div{
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+body {
+    width: 0 auto;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    width: 275px;
+}
+
+.main_container {
+    display:flex;
+}
+
+.img_muchines {
+
+}
+
+.abuelita {
+    height: inherit;
+    width: 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*div{
     color: white;
     background-color: red;
     font-size: 32px;
@@ -26,8 +75,8 @@ div{
 }
 
 .fourth_element {
-    background-color: lightgreen;
+    background-color: lightgreen;ß
     font-size: 24px;
     font-weight:  bold;
-}
+}*/
 

@@ -5,19 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipe Project</title>
     <link rel="stylesheet" href="css/main.css">
+<!-- This is used for Internal Styling option.-->
+    <style>
+        ul.no-bullets {
+            list-style-type: none;
+        }
+    </style>
 </head>
 <body>
     <div id="main">
         <h1 class="header">Odin Recipes</h1>
         <img src="images/ribs.jpeg" alt="Glazed ribs served on a wooden cutting board." width="1000px" height="700px">
         <h2>Check out these <span>amazing</span> mouth watering recipes</h2>
-        <ul>
+        <ul class="no-bullets">
             <li><a href="recipes/chops.html">Air Fryer Pork Chops</a></li>
             <li><a href="recipes/muchines.html">Grandma's Muchines</a></li>
             <li><a href="recipes/shells.html">Sausage Stuffed Shells</a></li>
             <li><a href="recipes/wings.html">Korean Flavor Wings</a></li>
         </ul>
     </div>
+    <!-- Below is an Inline Styling option. -->
 <button type="button" class="recipes" style="background-color: orange;">Click here for more amazing dishes.</button>
 </body>
 </html>

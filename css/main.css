@@ -1,0 +1,27 @@
+* {
+    font-size: 20px;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+/* Styling for header */
+span {
+    background-color: red;
+    font-variant: small-caps;
+}
+#main {
+    background-color: white;
+    padding: 20px;
+}
+
+.header {
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}

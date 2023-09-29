@@ -13,13 +13,69 @@ span {
     background-color: white;
     padding: 20px;
 }
-
+/* The top property is needed for the sticky value to work */
 .header {
+    position: sticky;
+    top: 0;
+    background-color: #0000ff;
+    color: #ffc0cb;
     font-size: 30px;
     text-align: center;
 }
+
 
 img {
     display: block;
     margin: auto;
 }
+
+/* Page Styling */
+.dishes {
+    font-family: Helvetica, "Times New Roman", "sans-serif";
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;  
+}
+
+.dishes, button {
+    font-size: 28px;
+    color: #fff;
+}
+
+/* Image Styling */
+    .avatar, .proportioned {
+        width: 300px;
+        height: 310px;
+    }
+
+ .proportioned {
+    position: relative;
+    right: 500px;
+    top: 10px;
+    }
+
+     .distorted {
+        width: 200px;
+        height: 400px;
+        position: relative;
+        bottom: 300px;
+        right: 200px;
+    }
+
+    .shells {
+        position: relative;
+        width: 300px;
+        height: 400px;
+        bottom: 700px;
+        left: 100px;
+    }
+
+    .wings {
+        position: relative;
+        width: 300px;
+        height: 310px;
+        left: 450px;
+        bottom: 1100px;
+    }

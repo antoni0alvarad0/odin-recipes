@@ -29,18 +29,22 @@ h1 {
 ul li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: square;
+    color: #000;
 }
 
 ul li:nth-child(3) {
     background-color: yellow;
+    color: #000;
+    
 }
 
 ul li:nth-child(4) {
     background-color: red;
+    color: #000;
 }
 
 ul li:nth-child(5) {
-    background-color: #0000ff;
+    background-color: #0000ff;  
 }
 
 .ingredients {
@@ -55,4 +59,6 @@ ul li:nth-child(5) {
 
 ol {
     font-size: 18px;
+    font-family: cursive;
 }
+

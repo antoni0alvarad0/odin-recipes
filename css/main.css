@@ -1,7 +1,9 @@
 /* General Styling */
 
 body {
-    background-color: lightgreen;
+    max-width: 600vh;
+    margin: 0 auto;
+    background-color: #565756;
 }
 
 /* Styling for header */
@@ -12,13 +14,14 @@ span {
 #main {
     background-color: white;
     padding: 20px;
+    margin: 50px;
 }
-/* The top property is needed for the sticky value to work */
+/* The top property is needed for the sticky value to work, this property was removed */
 .header {
-    position: sticky;
-    top: 0;
-    background-color: #0000ff;
-    color: #ffc0cb;
+    padding: 20px;
+    margin: 20px;
+    background-color: lightgreen;
+    color: rgba(0, 0, 0, 0.471);
     font-size: 30px;
     text-align: center;
 }
@@ -31,20 +34,16 @@ img {
 
 /* Page Styling */
 .dishes {
-    font-family: Helvetica, "Times New Roman", "sans-serif";
+    font-family: Helvetica, "Times New Roman", "sans-serif"; 
 }
 
-button {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #000;  
-}
-
-.dishes, button {
-    font-size: 28px;
-    color: #fff;
-}
 
 /* Image Styling */
+/* .recipe_images {
+    width: 1400px;
+    height: 800px;
+}
+
     .avatar, .proportioned {
         width: 300px;
         height: 310px;
@@ -79,3 +78,42 @@ button {
         left: 450px;
         bottom: 1100px;
     }
+
+    .hungry {
+        border-radius: 40%;
+    } */
+
+    /* Using Flexbox for Images */
+    .flex-container {
+        display: flex;
+        border: 2px solid #fff;
+    }
+
+
+
+
+
+
+
+
+
+/* Button Styling */
+    button {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #000;  
+    }
+    
+    .dishes, button {
+        font-size: 28px;
+        color: #fff;
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    .contact {
+        display: inline-block;
+    }
+    
+li {
+    padding: 5px 0px;
+}
